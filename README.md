@@ -1,51 +1,67 @@
-# 🛡️ Jason Morgan's Security & Infrastructure Knowledge Base
+# 👋🏾 Hi, I'm Jason Morgan
 
-Welcome to my personal repository, a comprehensive collection of guides, scripts, notes, and resources reflecting my journey and expertise as a Security and Infrastructure Administrator.
+**Security & Infrastructure Administrator | Cloud Migration Specialist | Endpoint Management | Systems Optimization**
 
-## 👨‍💻 About Me
-
-I am a seasoned Systems Administrator with extensive experience in server management and network infrastructure. My responsibilities have encompassed maintenance, support, upgrades, security, and backups. This repository serves as both a personal reference and a platform to share knowledge with the tech community.
-
-## 🏢 Professional Experience
-
-- **Systems Administrator at Global**
-  - Managed server operations and network infrastructure.
-  - Oversaw system maintenance, support, and upgrades.
-  - Implemented security protocols and managed data backups.
-
-## 📂 Repository Structure
-
-- `docs/` - Technical documentation and guides
-- `scripts/` - PowerShell, Bash, and Python scripts
-- `playbooks/` - Incident response and setup playbooks
-- `tools/` - Recommended tools and configurations
-
-## 🧰 Key Topics
-
-- 🔐 Endpoint Hardening (Windows, Linux)
-- 🌐 Network Security & Firewall Configurations
-- ☁️ Cloud Security (Azure, AWS)
-- 📦 Backup & Recovery Strategies
-- ⚙️ Automation Scripts & Tools
-- 📋 IT Policies & Procedures
-- 🔍 Threat Hunting & SIEM Configurations
-
-## 📈 Skills
-
-- **Server Management:** Expertise in maintaining and upgrading servers to ensure optimal performance.
-- **Network Infrastructure:** Proficient in designing and managing robust network systems.
-- **Security:** Skilled in implementing security measures and protocols to protect organizational assets.
-- **Backup Solutions:** Experienced in developing and managing backup strategies to safeguard data integrity.
-
-## 🎓 Certifications
-
-- [List any relevant certifications here]
-
-## 📫 Contact
-
-- **LinkedIn:** [linkedin.com/in/jason-morgan-9a56348](https://www.linkedin.com/in/jason-morgan-9a56348/)
-- **Email:** [Your Email Address]
+I'm an IT professional with over a decade of hands-on experience in managing servers, securing networks, and leading cloud transformation initiatives. From legacy Windows environments to modern Azure and Intune ecosystems — I build, secure, migrate, and optimize. This GitHub serves as both my personal documentation hub and a way to showcase my knowledge and work.
 
 ---
 
-**Stay secure. Keep learning. Keep building.**
+## 💼 Experience Highlights
+
+- 🖥️ **Systems & Network Administrator – Global Warranty (Oct 2019 – Present)**  
+  - Migrated Exchange & Active Directory to Azure cloud  
+  - Implemented Microsoft Intune & Autopilot for modern endpoint management  
+  - Deployed and managed Wazuh SIEM on AWS  
+  - Designed GPO and Intune compliance baselines  
+  - Supported servers, SonicWall firewalls, Unifi networks, Meraki MDM  
+  - VOIP (Mitel), Surveillance (Hikvision), and Alarm Systems
+
+- 🛠️ **Senior IT Support – OVH Montreal, Reitmans, Limited Brands**  
+  - Supported large enterprise infrastructure, hosted services, and POS systems  
+  - Troubleshot network and hardware issues  
+  - Mentored junior technicians  
+  - Interfaced with vendors and stakeholders
+
+---
+
+## 🧰 Technical Toolbox
+
+**Cloud & Virtualization**: Azure, Intune, Meraki MDM, VMware, SonicWall  
+**Security**: Wazuh SIEM, GPO Hardening, Network Segmentation  
+**Systems**: Windows Server (2000–2019), Linux (Ubuntu, Debian), Mac OS  
+**Tools**: PowerShell, Webmin, Docker, Mitel VOIP, Unifi, cPanel, Joomla  
+**Endpoint Management**: Autopilot, Intune, AD, MDM Solutions  
+**Backup/Infra**: Server backups, Disaster recovery, Exchange Online migration
+
+---
+
+## 📘 Featured Repositories
+
+- [🔐 security-infra-notes](https://github.com/YOUR-USERNAME/security-infra-notes)  
+  _Scripts, guides, and configurations from my real-world IT journey._
+
+- [☁️ azure-intune-policies](https://github.com/YOUR-USERNAME/azure-intune-policies)  
+  _Practical Intune & Azure config snippets and GPO mappings._
+
+- [🧠 wazuh-siem-lab](https://github.com/YOUR-USERNAME/wazuh-siem-lab)  
+  _A home lab setup and examples of Wazuh alerts and response rules._
+
+---
+
+## 🎓 Education & Certifications
+
+- 🎓 **Systems & Network Administration** – Hertzing College, May 2014  
+- 🎓 **Microsystems & Network Technician** – Hertzing College, Feb 2001  
+- 🏅 **A+ Certified**
+
+---
+
+## 📫 Let’s Connect
+
+- [🔗 LinkedIn](https://www.linkedin.com/in/jason-morgan-9a56348/)
+- 📧 gemineyez76@gmail.com  
+- 📍 Tillsonburg, Ontario, Canada
+
+---
+
+_“Stay secure. Keep learning. Keep building.”_
