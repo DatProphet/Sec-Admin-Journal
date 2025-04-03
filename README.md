@@ -1,4 +1,4 @@
-# 👋🏾 Hi, I'm Jason Morgan
+# 👋🏾 Hi,
 
 **Security & Infrastructure Administrator | Cloud Migration Specialist | Endpoint Management | Systems Optimization**
 
@@ -8,15 +8,15 @@ I'm an IT professional with over a decade of hands-on experience in managing ser
 
 ## 💼 Experience Highlights
 
-- 🖥️ **Systems & Network Administrator – Global Warranty (Oct 2019 – Present)**  
-  - Migrated Exchange & Active Directory to Azure cloud  
+- 🖥️ **Security & Infrastructure Administrator – (Oct 2019 – Present)**  
+  - Migrated Exchange & Active Directory to Azure cloud services
   - Implemented Microsoft Intune & Autopilot for modern endpoint management  
-  - Deployed and managed Wazuh SIEM on AWS  
+  - Deployed and managed Wazuh SIEM  
   - Designed GPO and Intune compliance baselines  
   - Supported servers, SonicWall firewalls, Unifi networks, Meraki MDM  
-  - VOIP (Mitel), Surveillance (Hikvision), and Alarm Systems
+  - VOIP (Mitel), Surveillance systems, and Alarm Systems
 
-- 🛠️ **Senior IT Support – OVH Montreal, Reitmans, Limited Brands**  
+- 🛠️ **Senior IT Support/Store implementation Specialist**  
   - Supported large enterprise infrastructure, hosted services, and POS systems  
   - Troubleshot network and hardware issues  
   - Mentored junior technicians  
@@ -28,22 +28,22 @@ I'm an IT professional with over a decade of hands-on experience in managing ser
 
 **Cloud & Virtualization**: Azure, Intune, Meraki MDM, VMware, SonicWall  
 **Security**: Wazuh SIEM, GPO Hardening, Network Segmentation  
-**Systems**: Windows Server (2000–2019), Linux (Ubuntu, Debian), Mac OS  
+**Systems**: Windows Server (2000–2025), Linux (Ubuntu, Debian), Mac OS  
 **Tools**: PowerShell, Webmin, Docker, Mitel VOIP, Unifi, cPanel, Joomla  
 **Endpoint Management**: Autopilot, Intune, AD, MDM Solutions  
-**Backup/Infra**: Server backups, Disaster recovery, Exchange Online migration
+**Recovery Solution**: Server backups, Disaster recovery, Exchange Online migration
 
 ---
 
 ## 📘 Featured Repositories
 
-- [🔐 security-infra-notes](https://github.com/YOUR-USERNAME/security-infra-notes)  
+- [🔐 security-infra-notes](https://github.com/DatProphet/security-infra-notes)  
   _Scripts, guides, and configurations from my real-world IT journey._
 
-- [☁️ azure-intune-policies](https://github.com/YOUR-USERNAME/azure-intune-policies)  
+- [☁️ azure-intune-policies](https://github.com/DatProphet/azure-intune-policies)  
   _Practical Intune & Azure config snippets and GPO mappings._
 
-- [🧠 wazuh-siem-lab](https://github.com/YOUR-USERNAME/wazuh-siem-lab)  
+- [🧠 wazuh-siem-lab](https://github.com/DatProphet/wazuh-siem-lab)  
   _A home lab setup and examples of Wazuh alerts and response rules._
 
 ---
@@ -60,7 +60,7 @@ I'm an IT professional with over a decade of hands-on experience in managing ser
 
 - [🔗 LinkedIn](https://www.linkedin.com/in/jason-morgan-9a56348/)
 - 📧 gemineyez76@gmail.com  
-- 📍 Tillsonburg, Ontario, Canada
+- 📍  Canada
 
 ---
 
