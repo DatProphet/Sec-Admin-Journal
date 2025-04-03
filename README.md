@@ -41,10 +41,10 @@ I'm an IT professional with over a decade of hands-on experience in managing ser
   _Scripts, guides, and configurations from my real-world IT journey._
 
 - [☁️ azure-intune-policies](https://github.com/DatProphet/azure-intune-policies)  
-  _Practical Intune & Azure config snippets and GPO mappings._
+  _Practical Intune & Azure config snippets and GPO mappings. COMING SOON_
 
 - [🧠 wazuh-siem-lab](https://github.com/DatProphet/wazuh-siem-lab)  
-  _A home lab setup and examples of Wazuh alerts and response rules._
+  _A home lab setup and examples of Wazuh alerts and response rules. COMING SOON_
 
 ---
 
