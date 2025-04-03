@@ -1,0 +1,3 @@
+[submodule "tools/scuba"]
+	path = tools/scuba
+	url = https://github.com/cisagov/ScubaGear.git
