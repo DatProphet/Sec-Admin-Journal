@@ -1,6 +1,6 @@
 # 🔐 Azure Secure Environment Setup – Revised Procedure
 
-This procedure outlines the revised steps we followed to create a secure environment in Azure with a Kali Linux VM and Web Application Firewall (WAF) protection.
+This procedure outlines the steps followed to create a secure environment in Azure with a Kali Linux VM and Web Application Firewall (WAF) protection.
 
 ---
 
