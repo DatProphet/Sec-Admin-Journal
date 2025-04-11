@@ -1,71 +1,124 @@
-Thanks for sharing the full configuration for your **KaliPrime** VM in Azure. Here's a quick **summary** and **assessment** of the setup, along with **recommendations** based on your use case—running penetration testing and vulnerability assessments securely in the cloud.
+# 🛡️ Azure VM Deployment Report – `KaliPrime`
+
+## 👤 Contact Information
+- **Name:** Jason Morgan  
+- **Email:** [jmorgan@globalwarranty.com](mailto:jmorgan@globalwarranty.com)  
+- **Phone:** 519.672.9356 x2700  
 
 ---
 
-## ✅ **Configuration Summary – KaliPrime (Azure VM)**
-
-| **Setting**                        | **Value** |
-|-----------------------------------|-----------|
-| **Name**                          | KaliPrime |
-| **Region**                        | East US |
-| **Resource Group**                | SecurityEnvRG |
-| **Image**                         | Kali 2024.3 - Gen2 |
-| **Size**                          | Standard D4as v5 (4 vCPU, 16 GiB RAM) |
-| **Security Type**                 | Standard |
-| **Availability Zone**             | 1 |
-| **Authentication**               | SSH public key (RSA) |
-| **Username**                      | KaliSec |
-| **SSH Key Name**                  | KaliPrime_key |
-| **OS Disk**                       | Premium SSD LRS |
-| **Delete OS Disk on Deletion**    | Enabled |
-| **Networking**                    | VNet: `SecurityVNet`, Subnet: `10.1.0.0/24` |
-| **NSG**                           | SecurityEnv-nsg |
-| **Public IP**                     | KaliPrime_IP |
-| **Boot Diagnostics**              | On |
-| **Auto-shutdown**                 | Off |
-| **Managed Identity**              | Off |
-| **Monitoring/Alerts**             | Off |
-| **Defender for Cloud**            | Basic (free) |
-| **Tags**                          | `CreatedBy: jmorgan@globalwarranty.com` (multiple resources)
+## 🔧 Basics
+| Key | Value |
+|-----|-------|
+| **Subscription** | Global Warranty Dev |
+| **Resource Group** | SecurityEnvRG |
+| **VM Name** | KaliPrime |
+| **Region** | East US |
+| **Availability Zone** | 1 |
+| **Zone Option** | Self-selected |
+| **Security Type** | Standard |
 
 ---
 
-## 🔐 **Security Recommendations**
-
-1. **Network Security Group (NSG)**  
-   ✅ Ensure inbound rules only allow trusted IPs to connect via SSH (port 22).  
-   🔒 Add a rule for **port 9392** if you're using **OpenVAS**, and optionally **10000** for **Webmin** or similar tools.
-
-2. **Public IP & Exposure**  
-   🔄 Consider replacing the public IP with a **private IP + VPN connection** or putting the VM behind an **Application Gateway** with WAF enabled (especially if you're enabling web-based UIs like OpenVAS or Webmin).
-
-3. **Enable Auto-Shutdown**  
-   💰 This will **save costs** when the VM isn’t in use. Since it’s currently off, it’s recommended to enable it via the Azure Portal.
-
-4. **Enable OS Guest Diagnostics**  
-   📊 Optional, but helpful for monitoring performance and health if needed.
-
-5. **Turn on System-Assigned Managed Identity**  
-   If you’ll connect to Azure services from Kali (e.g., logging to a central workspace), enabling this helps with secure identity-based access.
+## 💻 VM Configuration
+| Key | Value |
+|-----|-------|
+| **Image** | Kali 2024.3 - Gen2 |
+| **Architecture** | x64 |
+| **Size** | Standard D4as v5 (4 vCPUs, 16 GiB RAM) |
+| **Hibernation Enabled** | No |
 
 ---
 
-## 🌐 **Optional Networking Enhancements**
+## 🔐 Authentication
+| Key | Value |
+|-----|-------|
+| **Type** | SSH Public Key |
+| **Username** | KaliSec |
+| **Key Format** | RSA |
+| **Key Pair Name** | KaliPrime_key |
 
-- **Add Azure Bastion** for secure, browser-based SSH access—no public IP required.
-- **Enable Accelerated Networking** (if supported)—it’s currently off.
-- **Use NSG Logging** (via Network Watcher) to monitor unexpected traffic.
+---
+
+## 💰 Pricing Options
+| Key | Value |
+|-----|-------|
+| **Azure Spot Instance** | No |
 
 ---
 
-## 📌 Next Steps
-
-Let me know if you'd like:
-- A script to **harden this VM**
-- Instructions to **install and run OpenVAS** or **Nessus**
-- Setup for **VPN access through Azure**
-- Deployment of **Azure Application Gateway + WAF**
-
-Also, do you want to document this in Markdown format for your internal records?
+## 💾 Disk Settings
+| Key | Value |
+|-----|-------|
+| **OS Disk Size** | Image default |
+| **OS Disk Type** | Premium SSD LRS |
+| **Managed Disks** | Yes |
+| **Delete OS Disk with VM** | Enabled |
+| **Ephemeral OS Disk** | No |
 
 ---
+
+## 🌐 Networking
+| Key | Value |
+|-----|-------|
+| **Virtual Network** | SecurityVNet |
+| **Subnet** | default (10.1.0.0/24) |
+| **Public IP** | KaliPrime_IP (new) |
+| **NSG** | SecurityEnv-nsg |
+| **Accelerated Networking** | Off |
+| **Behind Load Balancer** | No |
+| **Delete Public IP & NIC on Delete** | Enabled |
+
+---
+
+## 🛠️ Management
+| Key | Value |
+|-----|-------|
+| **Defender for Cloud** | Basic (Free) |
+| **System Assigned Identity** | Off |
+| **Login with Microsoft Entra ID** | Off |
+| **Auto-shutdown** | Off |
+| **Periodic Assessment** | Off |
+| **Hotpatch Enabled** | Off |
+| **Patch Orchestration** | Image Default |
+
+---
+
+## 📈 Monitoring
+| Key | Value |
+|-----|-------|
+| **Alerts** | Off |
+| **Boot Diagnostics** | On |
+| **Guest Diagnostics** | Off |
+| **App Health Monitoring** | Off |
+
+---
+
+## ⚙️ Advanced Settings
+| Key | Value |
+|-----|-------|
+| **Extensions** | None |
+| **VM Applications** | None |
+| **Cloud Init** | No |
+| **User Data** | No |
+| **Disk Controller** | SCSI |
+| **Proximity Placement Group** | None |
+| **Capacity Reservation Group** | None |
+
+---
+
+## 🏷️ Tags
+```text
+CreatedBy: jmorgan@globalwarranty.com (Auto-shutdown schedule)
+CreatedBy: jmorgan@globalwarranty.com (Availability set)
+CreatedBy: jmorgan@globalwarranty.com (Disk)
+CreatedBy: jmorgan@globalwarranty.com (Network interface)
+CreatedBy: jmorgan@globalwarranty.com (Network security group)
+CreatedBy: jmorgan@globalwarranty.com (Public IP address)
+CreatedBy: jmorgan@globalwarranty.com (Recovery Services vault)
+CreatedBy: jmorgan@globalwarranty.com (SQL Virtual Machine)
+CreatedBy: jmorgan@globalwarranty.com (SSH key)
+CreatedBy: jmorgan@globalwarranty.com (Storage account)
+CreatedBy: jmorgan@globalwarranty.com (Virtual machine)
+CreatedBy: jmorgan@globalwarranty.com (Virtual machine extension)
+CreatedBy: jmorgan@globalwarranty.com (Virtual network)
