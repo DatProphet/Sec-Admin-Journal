@@ -1,16 +1,16 @@
 # 🛡️ Azure VM Deployment Report – `KaliPrime`
 
 ## 👤 Contact Information
-- **Name:** Jason Morgan  
-- **Email:** [jmorgan@globalwarranty.com](mailto:jmorgan@globalwarranty.com)  
-- **Phone:** 519.672.9356 x2700  
+- **Name:**  
+- **Email:**
+- **Phone:** 
 
 ---
 
 ## 🔧 Basics
 | Key | Value |
 |-----|-------|
-| **Subscription** | Global Warranty Dev |
+| **Subscription** |  |
 | **Resource Group** | SecurityEnvRG |
 | **VM Name** | KaliPrime |
 | **Region** | East US |
