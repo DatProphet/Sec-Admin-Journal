@@ -49,7 +49,8 @@ _Describe the reason this resource or group was created, its workload, and any a
 - **VNet/Subnet Association:**  
 - **NSGs Applied:**
 - **WAF Applied:**  
-- **Public IP Address:** `Yes` / `No`  
+- **Public IP Address:**   
+- **Is IP Reserved:** `Yes` / `No`  
 - **Private Link Usage:**  
 - **DNS Integration:**  
 
