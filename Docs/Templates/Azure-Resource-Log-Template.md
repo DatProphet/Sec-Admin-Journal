@@ -50,7 +50,7 @@ _Describe the reason this resource or group was created, its workload, and any a
 - **NSGs Applied:**
 - **WAF Applied:**  
 - **Public IP Address:**   
-- **Is IP Reserved:** `Yes` / `No`  
+- **Is IP Reserved?:** `Yes` / `No`  
 - **Private Link Usage:**  
 - **DNS Integration:**  
 
